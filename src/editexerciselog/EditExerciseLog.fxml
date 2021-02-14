@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="editexerciselog.EditExerciseLogController">
+   <children>
+      <Text layoutX="80.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Exercise" textAlignment="CENTER" wrappingWidth="240.13671875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <TextField fx:id="userBox" layoutX="127.0" layoutY="99.0" />
+      <TextField fx:id="descriptionBox" layoutX="127.0" layoutY="163.0" />
+      <TextField fx:id="durationBox" layoutX="128.0" layoutY="228.0" />
+      <Button fx:id="editExerciseLogButton" layoutX="143.0" layoutY="340.0" mnemonicParsing="false" onAction="#editExerciseLog" prefHeight="32.0" prefWidth="115.0" style="-fx-background-color: #0072FF;" text="Edit Exercise Log" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Text layoutX="188.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+      <Text layoutX="177.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration:" />
+      <Text layoutX="170.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:" />
+      <Text layoutX="188.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User:" />
+      <DatePicker fx:id="dateBox" layoutX="115.0" layoutY="290.0" />
+   </children>
+</AnchorPane>

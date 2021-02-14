@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="createUser.CreateUserController">
+   <children>
+      <HBox prefHeight="70.0" prefWidth="1200.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise Tracker">
+               <font>
+                  <Font size="38.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" right="35.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="exercisesPage" fill="#797979" onMouseClicked="#LoadExercisesPage" onMouseEntered="#onMouseEntered_Exercises" onMouseExited="#onMouseExited_Exercises" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise Logs">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="35.0" top="12.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="createExerciseLogPage" fill="#797979" onMouseClicked="#LoadCreateExerciseLogPage" onMouseEntered="#onMouseEntered_CreateExerciseLog" onMouseExited="#onMouseExited_CreateExerciseLog" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Exercise Log">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="35.0" top="12.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="createUserPage" fill="#797979" onMouseClicked="#LoadCreateUserPage" onMouseEntered="#onMouseEntered_CreateUser" onMouseExited="#onMouseExited_CreateUser" strokeType="OUTSIDE" strokeWidth="0.0" text="Create User">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="12.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <Text layoutX="34.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New User" wrappingWidth="393.13671875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="38.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button layoutX="38.0" layoutY="324.0" mnemonicParsing="false" onAction="#createUser" prefHeight="32.0" prefWidth="115.0" style="-fx-background-color: #0072FF;" text="Create User" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="userBox" layoutX="38.0" layoutY="236.0" prefHeight="26.0" prefWidth="295.0" />
+   </children>
+</AnchorPane>

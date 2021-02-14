@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exerciselogs.ExerciseLogsController">
+   <children>
+      <HBox prefHeight="69.0" prefWidth="1200.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise Tracker">
+               <font>
+                  <Font size="38.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" right="35.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="exercisesPage" fill="#797979" onMouseClicked="#LoadExercisesPage" onMouseEntered="#onMouseEntered_Exercises" onMouseExited="#onMouseExited_Exercises" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise Logs">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="35.0" top="12.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="createExerciseLogPage" fill="#797979" onMouseClicked="#LoadCreateExerciseLogPage" onMouseEntered="#onMouseEntered_CreateExerciseLog" onMouseExited="#onMouseExited_CreateExerciseLog" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Exercise Log">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="35.0" top="12.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="createUserPage" fill="#797979" onMouseClicked="#LoadCreateUserPage" onMouseEntered="#onMouseEntered_CreateUser" onMouseExited="#onMouseExited_CreateUser" strokeType="OUTSIDE" strokeWidth="0.0" text="Create User">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="12.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <Text layoutX="14.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logged Exercises" wrappingWidth="393.13671875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <TableView fx:id="exerciseTable" layoutY="160.0" prefHeight="539.0" prefWidth="1200.0">
+        <columns>
+          <TableColumn fx:id="userColumn" prefWidth="169.0" style="-fx-alignment: CENTER-LEFT;" text="User" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="239.0" style="-fx-alignment: CENTER-LEFT;" text="Description" />
+            <TableColumn fx:id="durationColumn" prefWidth="179.0" style="-fx-alignment: CENTER-LEFT;" text="Duration" />
+            <TableColumn fx:id="dateColumn" prefWidth="225.0" style="-fx-alignment: CENTER-LEFT;" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
