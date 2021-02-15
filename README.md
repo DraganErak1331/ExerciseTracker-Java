@@ -44,7 +44,7 @@ The basic functionality of the application is as follows:
 
 * The program is launched and the Exercise Tracker windows appears.
 
-<img src = "screenshots/exercises_log_page.PNG">
+<img src = "screenshots/exercise_log_page.PNG">
 
 <hr>
 
@@ -57,7 +57,7 @@ The basic functionality of the application is as follows:
 
 * This brings up the Admin Dashboard of the application.
 
-<img src = "screenshots/exercises_log_page.PNG">
+<img src = "screenshots/exercise_log_page.PNG">
 
 <hr>
 
