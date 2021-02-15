@@ -23,6 +23,8 @@ For the frond end, it is using the ExerciseTracker-Java project folder. In it's 
 * The createexerciselog package contains CreateExerciseLog.fxml, CreateExerciseLogController.java, CreateExerciseLogModel.java, and ExerciseLogData.java. The first 3 files are the view, controller and model files respectively and ExerciseLogData.java file defines the structure of each exercise log in the database. This page is for the Create Exercise Log page and is used to create new exercise logs in the system.
 
 
+
+
 ## Getting Started
 
 ### Prerequisites
