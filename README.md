@@ -6,27 +6,17 @@
 
 <img src = "screenshots/main_page.PNG">
 
-This is a website that functions as an exercise log. It was created using the MERN stack, which combines MongoDB, Express, React, and Node JS. 
+This is an application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
-For the backend, a database called Exercise_Tracker_Database is used, along side a collection called exercises and a collection called users. The exercises collection stores logged exercises and the users collection stores crated users. There is a schema for each user and a schema for each student. The database portion of the project was done in MongoDB.
+For the backend, it uses a schema called "exercise_tracker_database", along with a "users" table, an "exercises" table and a "login" table using MySQL Server and Workbench.
+* The users table is a table that holds entries that contain the columns <i>user_id</i>, and <i>user</i>. The user_id column is the primary key and it automatically increments. The user column contains the name of a user that can be selected when creating an exercise log. These columns are referencing "User Data" entries.
+* The exercises table is a table that holds entries that contain the columns <i>exercise_id</i>, <i>user</i>, <i>description</i>, <i>duration</i>, and <i>date</i>. The ID column is the primary key and it automatically increments, the user column contains the name of a selectable user, the description column contains the description of the exercise, the duration column is how long the exercise was done for (in minutes), and the date column is the date in which the exercise occurs. These columns are referencing "Exercise Log Data" entries.
+* The login table is a table that holds entries containing the columns <i>username</i> and <i>password</i>. These columns are referencing username and password login information to enter the system.
 
-Each user in the users schema has a String type entry to refer to their names. Each exercise in the exercise schema has a username, description, duration and date field.
-Along with the database, Express was used as the Node JS framework, Node was used as the JavaScript Web Server, and MongoDB was used as the document database. The respective files for the backend are in the backend folder and are as follows:
-* The .env file contains the connection string used to connect to the MongoDB database.
-* The server.js file is used for connecting to the Exercise_Tracker_Database by opening the connection, importing the respective routes, and starting the server.
-* The user.model.js file located in the models folder contains the model for each user entry.
-* The exercise.model.js file located in the model folder contains the model for each exercise entry.
-* The users.js file located in the routes folder contains all of the respective routes for the user collection in the Exercise_Tracker_Database.
-* The exercises.js file located in the routes folder contains all of the respective routes for the exercise collection in the Exercise_Tracker_Database.
-
-For the frontend, React was used for the client-side JavaScript framework. It's made up of the following files in the src folder:
-* Index.js is the main page of the program, it renders the contents of the App.js file
-* App.js combines all of the component files from the component folder.
-* navbar.component.js located in the components folder contains the navbar that is shown at the top of each page. It provides links to the other pages of the website
-* exercise-list.component.js located in the components folder displays all of the exercises. 
-* create-user.component.js located in the components folder contains the page where a user can create a new user
-* create-exercise.component.js located in the components folder contains the page where a user can create a new exercise log in the list of logged exercises
-* edit-exercise.component.js located in the components folder contains the page that is displayed when a user selects the option to edit an exercise log
+For the frond end, it is using the ExerciseTracker-Java project folder. In it's src folder, it contains a dbutil package, a login package, an exerciselogs package, an editexerciselog package, a deleteexerciselog package, a createexerciselog package, and a createuser package. The admin and login package use a model-view-controller pattern to develop each window of the application.
+* The dbutil package contains the java class file DatabaseConnection.java, which is used to establish a connection to the MySQL database on the schema "school" by using the appropriate credentials and URL of the database.
+* The login package contains LoginModel.java, LoginController.java, Login.java, and Login.fxml. They are the model, controller, view and fxml files respectively for the initial window that appears when the program is launched.
+* The admin package contains StudentData.java, AdminModel.java, AdminController.java, and Admin.fxml. The StudentData.java file defines the structure of each student in the database, and the rest of the fles are the model, controller, and fxml files respectively for the window that launches upon successful login into the application via the first window.
 
 ## Getting Started
 

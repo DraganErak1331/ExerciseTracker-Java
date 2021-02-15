@@ -5,8 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import dbutil.DatabaseConnection;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextField;
 
 /**
  * The Model class of the EditExerciseLog FXML file which handles the database related functionality and logic.

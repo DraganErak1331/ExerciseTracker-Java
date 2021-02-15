@@ -1,8 +1,6 @@
 package deleteexerciselog;
 
 import java.io.IOException;
-import java.time.LocalDate;
-
 import createexerciselog.ExerciseLogData;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

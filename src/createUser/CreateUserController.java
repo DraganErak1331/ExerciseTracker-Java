@@ -1,16 +1,13 @@
-package createUser;
+package createuser;
 
 import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Cursor;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
-import javafx.stage.Stage;
 
 /**
  * The controller for the CreateUser FXML file responsible for creating users to choose from in the system.
@@ -131,7 +128,7 @@ public class CreateUserController {
 	@FXML
 	private void LoadCreateUserPage() {
 		try {
-			AnchorPane newPane = FXMLLoader.load(getClass().getResource("/createUser/CreateUser.fxml"));
+			AnchorPane newPane = FXMLLoader.load(getClass().getResource("/createuser/CreateUser.fxml"));
 			rootPane.getChildren().setAll(newPane);
 		} catch (IOException e) {
 			e.printStackTrace();

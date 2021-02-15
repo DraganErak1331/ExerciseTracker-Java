@@ -1,11 +1,10 @@
-package createUser;
+package createuser;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import dbutil.DatabaseConnection;
-import javafx.scene.control.TextField;
 
 /**
  * The Model class of the CreateUser FXML file which handles the database related functionality and logic.

@@ -1,7 +1,6 @@
 package createexerciselog;
 
 import javafx.beans.property.StringProperty;
-import exerciselogs.ExerciseLogsController;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
