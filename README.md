@@ -55,38 +55,38 @@ The basic functionality of the application is as follows:
 
 <hr>
 
-* This brings up the Exercise Logs page of the application.
+* This brings up the Exercise Logs page of the application, which displays all of the logged exercises. It can be also access at any time by clicking "Exercise Logs" in the navbar on the top of the page. From here, a user can either edit or delete an exercise log. Clicking the edit button brings the user to a page where they can edit the exercise log. Clicking the delete button will delete the exercise log from the list.
 
 <img src = "screenshots/exercise_logs_page.PNG">
 
 <hr>
 
-* The main page displays all of the logged exercises. From here, a user can either edit or delete an exercise log. Clicking the edit button brings the user to a page where they can edit the exercise log. Clicking delete will delete the exercise log from the list.
+* Clicking the edit button on any of the rows will bring up the Edit Exercise Log page, where the user can edit any of the aspects of the selected exercise log. Clicking the Edit Exercise Log button will update the respective exercise log in the Logged Exercises list on the Exercise Logs page of the application.
 
-<img src = "screenshots/main_page.PNG">
-
-<hr>
-
-* Clicking the Create Exercise Log tab of the navbar on the top of a page will bring the user to the page where they can create a new exercise log.
-
-<img src = "screenshots/create_exercise.PNG">
-<img src = "screenshots/main_page_after_create.PNG">
+<img src = "screenshots/exercise_logs_page.PNG">
+<img src = "screenshots/edit_exercise_page.PNG">
+<img src = "screenshots/exercise_logs_page_after_edit.PNG">
 
 <hr>
 
-* In the edit exercise page, the user can edit any of the aspects of any exercise log. Clicking the Edit Exercise Log button will update the respective exercise log in the Logged Exercises list on the main page of the website.
+*  Clicking the delete button on any of the rows will bring up the Delete Exercise Log page, where the user can delete the selected exercise log. Selecting Yes on the page will delete the exercise log from the system.
 
-<img src = "screenshots/edit_exercise.PNG">
-<img src = "screenshots/main_page_after_edit.PNG">
-
-<hr>
-
-* Clicking the Exercises tab of the navbar on the top of a page will bring the user to the main page of the website.
-
-<img src = "screenshots/main_page.PNG">
+<img src = "screenshots/exercise_logs_page_after_edit.PNG">
+<img src = "screenshots/delete_exercise_page.PNG">
+<img src = "screenshots/exercise_logs_page_after_delete.PNG">
 
 <hr>
 
-* Clicking the Create User tab of the navbar on the top of a page will bring the user to the page where they can create a new user to be entered in the Username section of an exercise log.
+* Clicking Crate User in the navbar on the top of a page will bring the user to the Create User page, where they can create a new user to be entered in the Username section of an exercise log.
 
-<img src = "screenshots/create_user.PNG">
+<img src = "screenshots/create_user_page1.PNG">
+<img src = "screenshots/create_user_page2.PNG">
+
+
+<hr>
+
+* Clicking Create Exercise Log of the navbar on the top of a page will bring the user to the Create Exercise Log page, where they can create a new exercise log.
+
+<img src = "screenshots/create_exercise_log_page1.PNG">
+<img src = "screenshots/create_exercise_log_page2.PNG">
+<img src = "screenshots/create_exercise_log_page3.PNG">
