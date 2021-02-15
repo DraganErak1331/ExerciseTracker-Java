@@ -6,7 +6,7 @@
 
 <img src = "screenshots/main_page.PNG">
 
-This is an application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
+This is an application that functions as an exercise tracker. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
 For the backend, it uses a schema called "exercise_tracker_database", along with a "users" table, an "exercises" table and a "login" table using MySQL Server and Workbench.
 * The users table is a table that holds entries that contain the columns <i>user_id</i>, and <i>user</i>. The user_id column is the primary key and it automatically increments. The user column contains the name of a user that can be selected when creating an exercise log. These columns are referencing "User Data" entries.
@@ -22,6 +22,7 @@ For the frond end, it is using the ExerciseTracker-Java project folder. In it's 
 * The createuser package contains CreateUser.fxml, CreateUserController.java, CreateUserModel.java, and UserData.java. The first 3 files are the view, controller and model files respectively and UserData.java file defines the structure of each user in the database. This page is for the Create User page and is used to create users in the system to be selectable when creating an exercise log.
 * The createexerciselog package contains CreateExerciseLog.fxml, CreateExerciseLogController.java, CreateExerciseLogModel.java, and ExerciseLogData.java. The first 3 files are the view, controller and model files respectively and ExerciseLogData.java file defines the structure of each exercise log in the database. This page is for the Create Exercise Log page and is used to create new exercise logs in the system.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -34,6 +35,7 @@ The following run configurations needed to be set as VM arguments:
 ```
 
 A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
+
 
 ## Usage
 The basic functionality of the website is as follows:
