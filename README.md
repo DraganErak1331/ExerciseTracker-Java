@@ -37,19 +37,27 @@ The following run configurations needed to be set as VM arguments:
 
 A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
 
+<br>
 
 ## Usage
-The basic functionality of the website is as follows:
+The basic functionality of the application is as follows:
 
-* Run the server file by going to the backend directory and using the following command
-```sh
-nodemon server
-```
+* The program is launched and the Exercise Tracker windows appears.
 
-* In the main project directory use the following command
-```sh
-npm start
-```
+<img src = "screenshots/login_page.PNG">
+
+<hr>
+
+* The user must enter the right credentials as per the login table of the school schema and click the login button.
+
+<img src = "screenshots/wrong_login.PNG">
+<img src = "screenshots/correct_login.PNG">
+
+<hr>
+
+* This brings up the Admin Dashboard of the application.
+
+<img src = "screenshots/admin_page.PNG">
 
 <hr>
 
@@ -82,7 +90,3 @@ npm start
 * Clicking the Create User tab of the navbar on the top of a page will bring the user to the page where they can create a new user to be entered in the Username section of an exercise log.
 
 <img src = "screenshots/create_user.PNG">
-
-## Resources Used
-
-This project was based off of the following YouTube tutorial: https://www.youtube.com/watch?v=7CqJlxBYj-M
