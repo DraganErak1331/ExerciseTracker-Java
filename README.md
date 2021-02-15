@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src = "screenshots/main_page.PNG">
+<img src = "screenshots/exercise_logs_page.PNG">
 
 This is an application that functions as an exercise tracker. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
