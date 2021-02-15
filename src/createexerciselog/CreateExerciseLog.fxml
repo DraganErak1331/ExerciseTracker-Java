@@ -64,7 +64,7 @@
          </font>
       </Text>
       <TextField fx:id="descriptionBox" layoutX="38.0" layoutY="334.0" prefHeight="25.0" prefWidth="274.0" />
-      <Text layoutX="38.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration:">
+      <Text layoutX="38.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration(in minutes):">
          <font>
             <Font size="16.0" />
          </font>
