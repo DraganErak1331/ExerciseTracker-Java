@@ -44,20 +44,20 @@ The basic functionality of the application is as follows:
 
 * The program is launched and the Exercise Tracker windows appears.
 
-<img src = "screenshots/exercise_log_page.PNG">
+<img src = "screenshots/exercise_logs_page.PNG">
 
 <hr>
 
-* The user must enter the right credentials as per the login table of the school schema and click the login button.
+* The user must enter the right credentials as per the login table of the exercise_tracker_database schema and click the login button.
 
 <img src = "screenshots/wrong_login.PNG">
 <img src = "screenshots/correct_login.PNG">
 
 <hr>
 
-* This brings up the Admin Dashboard of the application.
+* This brings up the Exercise Logs page of the application.
 
-<img src = "screenshots/exercise_log_page.PNG">
+<img src = "screenshots/exercise_logs_page.PNG">
 
 <hr>
 
