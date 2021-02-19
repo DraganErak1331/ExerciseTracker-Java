@@ -63,15 +63,16 @@ The basic functionality of the application is as follows:
 
 * Clicking the edit button on any of the rows will bring up the Edit Exercise Log page, where the user can edit any of the aspects of the selected exercise log. Clicking the Edit Exercise Log button will update the respective exercise log in the Logged Exercises list on the Exercise Logs page of the application.
 
-<img src = "screenshots/exercise_logs_page.PNG">
-<img src = "screenshots/edit_exercise_page.PNG">
+<img src = "screenshots/exercise_logs_page_before_edit.PNG">
+<img src = "screenshots/edit_exercise_page1.PNG">
+<img src = "screenshots/edit_exercise_page2.PNG">
 <img src = "screenshots/exercise_logs_page_after_edit.PNG">
 
 <hr>
 
 *  Clicking the delete button on any of the rows will bring up the Delete Exercise Log page, where the user can delete the selected exercise log. Selecting Yes on the page will delete the exercise log from the system.
 
-<img src = "screenshots/exercise_logs_page_after_edit.PNG">
+<img src = "screenshots/exercise_logs_page_before_delete.PNG">
 <img src = "screenshots/delete_exercise_page.PNG">
 <img src = "screenshots/exercise_logs_page_after_delete.PNG">
 
@@ -89,4 +90,4 @@ The basic functionality of the application is as follows:
 
 <img src = "screenshots/create_exercise_log_page1.PNG">
 <img src = "screenshots/create_exercise_log_page2.PNG">
-<img src = "screenshots/create_exercise_log_page3.PNG">
+<img src = "screenshots/exercise_log_page_after_create.PNG">
