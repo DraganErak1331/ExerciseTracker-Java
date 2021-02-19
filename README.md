@@ -90,4 +90,4 @@ The basic functionality of the application is as follows:
 
 <img src = "screenshots/create_exercise_log_page1.PNG">
 <img src = "screenshots/create_exercise_log_page2.PNG">
-<img src = "screenshots/exercise_log_page_after_create.PNG">
+<img src = "screenshots/exercise_logs_page_after_create.PNG">
