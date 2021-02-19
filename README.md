@@ -55,7 +55,7 @@ The basic functionality of the application is as follows:
 
 <hr>
 
-* This brings up the Exercise Logs page of the application, which displays all of the logged exercises. It can be also access at any time by clicking "Exercise Logs" in the navbar on the top of the page. From here, a user can either edit or delete an exercise log. Clicking the edit button brings the user to a page where they can edit the exercise log. Clicking the delete button will delete the exercise log from the list.
+* This brings up the Exercise Logs page of the application, which displays all of the logged exercises. It can also be accessed at any time by clicking "Exercise Logs" in the navbar on the top of the page. From here, a user can either edit or delete an exercise log. Clicking the edit button brings the user to a page where they can edit the exercise log. Clicking the delete button will delete the exercise log from the list.
 
 <img src = "screenshots/exercise_logs_page.PNG">
 
