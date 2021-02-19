@@ -78,7 +78,7 @@ The basic functionality of the application is as follows:
 
 <hr>
 
-* Clicking Crate User in the navbar on the top of a page will bring the user to the Create User page, where they can create a new user to be entered in the Username section of an exercise log.
+* Clicking Create User in the navbar on the top of a page will bring the user to the Create User page, where they can create a new user to be entered in the Username section of an exercise log.
 
 <img src = "screenshots/create_user_page1.PNG">
 <img src = "screenshots/create_user_page2.PNG">
