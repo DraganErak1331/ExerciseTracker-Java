@@ -9,7 +9,7 @@ import java.sql.SQLException;
  */
 public class DatabaseConnection {
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "NinGame567$!";
+	private static final String PASSWORD = "password";
 	private static final String CONN = "jdbc:mysql://localhost:3306/exercise_tracker_database";
 	
 	/**
