@@ -83,9 +83,7 @@ For the frond end, it is using the ExerciseTracker-Java project folder. In it's 
 
 <br>
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 The JavaFX SDK needed to be imported as a library in the build path.
 
 The following run configurations needed to be set as VM arguments:
