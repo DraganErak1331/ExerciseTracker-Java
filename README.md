@@ -6,7 +6,7 @@
 
 <img src = "screenshots/exercise_logs_page.PNG">
 
-This is an application that functions as an exercise tracker. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
+This is an application that functions as an exercise log tracker. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
 <br>
 
