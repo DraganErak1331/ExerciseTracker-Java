@@ -65,21 +65,6 @@ The basic functionality of the application is as follows:
 
 <br>
 
-## Getting Started
-
-### Prerequisites
-The JavaFX SDK needed to be imported as a library in the build path.
-
-The following run configurations needed to be set as VM arguments:
-```sh
---module-path "C:\Program Files (x86)\Java\jre1.8.0_91\lib\javafx-sdk-15.0.1\lib" 
---add-modules javafx.controls,javafx.fxml
-```
-
-A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
-
-<br>
-
 ## File Structure
 
 For the backend, it uses a schema called "exercise_tracker_database", along with a "users" table, an "exercises" table and a "login" table using MySQL Server and Workbench.
@@ -95,3 +80,18 @@ For the frond end, it is using the ExerciseTracker-Java project folder. In it's 
 * The deleteexerciselog package contains DeleteExerciseLog.fxml, DeleteExerciseLogController.java, and DeleteExerciseLogModel.java. They are the view, controller and model files respectively for the window that launches the Delete Exercise Log page where exercise logs can be deleted.
 * The createuser package contains CreateUser.fxml, CreateUserController.java, CreateUserModel.java, and UserData.java. The first 3 files are the view, controller and model files respectively and UserData.java file defines the structure of each user in the database. This page is for the Create User page and is used to create users in the system to be selectable when creating an exercise log.
 * The createexerciselog package contains CreateExerciseLog.fxml, CreateExerciseLogController.java, CreateExerciseLogModel.java, and ExerciseLogData.java. The first 3 files are the view, controller and model files respectively and ExerciseLogData.java file defines the structure of each exercise log in the database. This page is for the Create Exercise Log page and is used to create new exercise logs in the system.
+
+<br>
+
+## Getting Started
+
+### Prerequisites
+The JavaFX SDK needed to be imported as a library in the build path.
+
+The following run configurations needed to be set as VM arguments:
+```sh
+--module-path "C:\Program Files (x86)\Java\jre1.8.0_91\lib\javafx-sdk-15.0.1\lib" 
+--add-modules javafx.controls,javafx.fxml
+```
+
+A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
